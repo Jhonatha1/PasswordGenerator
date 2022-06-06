@@ -9,7 +9,6 @@ int main()
 	srand(time(0));
 	string senha;
 
-	// all data
 	string data = "abcdefghijklmnopqrstuvwxyz"
 				  "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 				  "0987654321"
@@ -20,7 +19,7 @@ int main()
 		senha = senha + data[rand() % 93];
 	}
     cout<<" _______________________________________________________\n";
-	cout<<"|Senha de 12 dígitos gerada com sucesso: "<<senha << "   |\n";
+	cout<<"|Senha de 12 dÃ­gitos gerada com sucesso: "<<senha << "   |\n";
     cout<<"|_______________________________________________________|\n";
 
 }
